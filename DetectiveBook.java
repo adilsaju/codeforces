@@ -10,11 +10,10 @@ public class DetectiveBook {
         List<Integer> ar = new ArrayList<Integer>(n);
         // long[] ar1 = new long[n];
         for (int i = 0; i < n; i++) {
-            ar.add(s.nextLong());
+            ar.add(s.nextInt());
         }
-        for (int i = 3; i <=6; i++) {
-            System.out.println(factorial(i));
-            
+        for (int i = 0; i < ar.size(); i++) {
+            System.out.print(ar.get(i)+" ");
         }
 
         s.close();
